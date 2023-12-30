@@ -1,0 +1,14 @@
+// variable naiming convention
+1. The name of a variable can contain only letter(aA-zZ)
+2. Or the underscore(_) 
+3. Variables name cannot start with a number or hyphen(-)
+4. By convention unix shell variables have their name in UPPERCASE
+
+// valid and invalid variable names
+Valid Names      Invalid Names
+------------     --------------
+_Monmoy        | 2_VAR
+TOKEN_A        | -VARIABLE
+VAR_1          | VAR1-VAR2
+VAR_2          | VAR_A!
+
